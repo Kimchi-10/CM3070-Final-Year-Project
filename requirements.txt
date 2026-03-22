@@ -1,0 +1,16 @@
+# GA Runner (local)
+# No special dependencies - uses only Python stdlib + lean CLI
+
+# Streamlit Dashboard
+streamlit>=1.30.0
+plotly>=5.18.0
+pandas>=2.0.0
+yfinance>=0.2.30
+numpy>=1.24.0
+
+# FinBERT Sentiment (optional — dashboard works without these)
+# transformers>=4.35.0
+# torch>=2.1.0
+
+# Testing
+pytest>=7.0.0

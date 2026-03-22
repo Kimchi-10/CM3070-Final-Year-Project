@@ -1,0 +1,707 @@
+{
+  "AAPL": {
+    "day_trade": {
+      "family": 1,
+      "family_name": "RSI Mean Reversion",
+      "params": {
+        "atr_period": 20,
+        "stop_atr_mult": 1.5,
+        "reward_ratio": 2,
+        "max_hold_bars": 96,
+        "cooldown_bars": 4,
+        "risk_per_trade_pct": 0.35,
+        "rsi_period": 14,
+        "rsi_oversold": 35,
+        "rsi_overbought": 65,
+        "trend_ema_period": 150
+      },
+      "metrics": {
+        "return_pct": 11.87,
+        "sharpe": -0.422,
+        "drawdown_pct": 110.0,
+        "win_rate_pct": 47.0,
+        "entries": 137
+      },
+      "all_families": {
+        "1": {
+          "family_name": "RSI Mean Reversion",
+          "metrics": {
+            "return_pct": 11.87,
+            "sharpe": -0.422,
+            "drawdown_pct": 110.0,
+            "win_rate_pct": 47.0,
+            "entries": 137
+          }
+        },
+        "2": {
+          "family_name": "Bollinger Band Mean Reversion",
+          "metrics": {
+            "return_pct": 0.49,
+            "sharpe": -2.196,
+            "drawdown_pct": 388.0,
+            "win_rate_pct": 34.0,
+            "entries": 289
+          }
+        },
+        "3": {
+          "family_name": "Connors RSI (2-Period)",
+          "metrics": {
+            "return_pct": 0.72,
+            "sharpe": -4.725,
+            "drawdown_pct": 430.0,
+            "win_rate_pct": 45.0,
+            "entries": 84
+          }
+        },
+        "4": {
+          "family_name": "EMA Trend + ADX",
+          "metrics": {
+            "return_pct": 1.66,
+            "sharpe": -6.534,
+            "drawdown_pct": 522.0,
+            "win_rate_pct": 75.0,
+            "entries": 8
+          }
+        },
+        "5": {
+          "family_name": "Williams %R + RSI",
+          "metrics": {
+            "return_pct": -3.97,
+            "sharpe": -1.926,
+            "drawdown_pct": 1.0,
+            "win_rate_pct": 51.0,
+            "entries": 378
+          }
+        }
+      }
+    },
+    "swing": {
+      "family": 1,
+      "family_name": "RSI Mean Reversion",
+      "params": {
+        "atr_period": 20,
+        "stop_atr_mult": 1.5,
+        "reward_ratio": 2.5,
+        "max_hold_bars": 96,
+        "cooldown_bars": 6,
+        "risk_per_trade_pct": 0.5,
+        "rsi_period": 10,
+        "rsi_oversold": 40,
+        "rsi_overbought": 65,
+        "trend_ema_period": 200
+      },
+      "metrics": {
+        "return_pct": 3.87,
+        "sharpe": -0.945,
+        "drawdown_pct": 6.2,
+        "win_rate_pct": 32.0,
+        "entries": 68
+      },
+      "all_families": {
+        "1": {
+          "family_name": "RSI Mean Reversion",
+          "metrics": {
+            "return_pct": 2.04,
+            "sharpe": -2.684,
+            "drawdown_pct": 2.2,
+            "win_rate_pct": 30.0,
+            "entries": 43
+          }
+        },
+        "3": {
+          "family_name": "Connors RSI (2-Period)",
+          "metrics": {
+            "return_pct": -2.66,
+            "sharpe": -1.807,
+            "drawdown_pct": 7.9,
+            "win_rate_pct": 38.0,
+            "entries": 73
+          }
+        }
+      }
+    }
+  },
+  "BTC-USD": {
+    "day_trade": {
+      "family": 1,
+      "family_name": "RSI Mean Reversion",
+      "params": {
+        "atr_period": 10,
+        "stop_atr_mult": 1.5,
+        "reward_ratio": 2,
+        "max_hold_bars": 72,
+        "cooldown_bars": 1,
+        "risk_per_trade_pct": 0.5,
+        "rsi_period": 20,
+        "rsi_oversold": 35,
+        "rsi_overbought": 60,
+        "trend_ema_period": 150
+      },
+      "metrics": {
+        "return_pct": 0.0,
+        "sharpe": null,
+        "drawdown_pct": null,
+        "win_rate_pct": null,
+        "entries": null
+      }
+    }
+  },
+  "EURUSD=X": {
+    "day_trade": {
+      "family": 3,
+      "family_name": "EMA Crossover",
+      "params": {
+        "atr_period": 10,
+        "stop_atr_mult": 1.5,
+        "reward_ratio": 1.5,
+        "max_hold_bars": 48,
+        "cooldown_bars": 5,
+        "risk_per_trade_pct": 0.5,
+        "ema_fast_period": 20,
+        "ema_slow_period": 30,
+        "trend_ema_period": 100,
+        "bar_minutes": 15,
+        "htf_minutes": 240,
+        "htf_ema_period": 20,
+        "vol_filter_enabled": 1,
+        "use_force_flat": 0
+      },
+      "metrics": {
+        "return_pct": 8.55,
+        "sharpe": -0.405,
+        "drawdown_pct": 7.0,
+        "win_rate_pct": 36.0,
+        "entries": 78
+      },
+      "all_families": {
+        "1": {
+          "family_name": "RSI Mean Reversion",
+          "metrics": {
+            "return_pct": -3.53,
+            "sharpe": -3.972,
+            "drawdown_pct": 5.3,
+            "win_rate_pct": 35.0,
+            "entries": 100
+          }
+        },
+        "2": {
+          "family_name": "Bollinger Band Bounce",
+          "metrics": {
+            "return_pct": -1.41,
+            "sharpe": -3.846,
+            "drawdown_pct": 2.6,
+            "win_rate_pct": 37.0,
+            "entries": 161
+          }
+        },
+        "3": {
+          "family_name": "EMA Crossover",
+          "metrics": {
+            "return_pct": 8.55,
+            "sharpe": -0.405,
+            "drawdown_pct": 7.0,
+            "win_rate_pct": 36.0,
+            "entries": 78
+          }
+        },
+        "4": {
+          "family_name": "Stochastic Mean Reversion",
+          "metrics": {
+            "return_pct": -18.35,
+            "sharpe": -1.088,
+            "drawdown_pct": 25.4,
+            "win_rate_pct": 25.0,
+            "entries": 51
+          }
+        },
+        "5": {
+          "family_name": "EMA Trend + ADX",
+          "metrics": {
+            "return_pct": -4.77,
+            "sharpe": -3.875,
+            "drawdown_pct": 6.4,
+            "win_rate_pct": 28.0,
+            "entries": 46
+          }
+        }
+      }
+    }
+  },
+  "QQQ": {
+    "day_trade": {
+      "family": 3,
+      "family_name": "Connors RSI (2-Period)",
+      "params": {
+        "atr_period": 20,
+        "stop_atr_mult": 1,
+        "reward_ratio": 3,
+        "max_hold_bars": 72,
+        "cooldown_bars": 8,
+        "risk_per_trade_pct": 0.5,
+        "crsi_period": 2,
+        "crsi_entry": 10,
+        "crsi_entry_short": 85,
+        "trend_ema_period": 200,
+        "exit_sma_period": 3
+      },
+      "metrics": {
+        "return_pct": 6.56,
+        "sharpe": -0.671,
+        "drawdown_pct": 4.5,
+        "win_rate_pct": 32.0,
+        "entries": 117
+      },
+      "all_families": {
+        "1": {
+          "family_name": "RSI Mean Reversion",
+          "metrics": {
+            "return_pct": 1.89,
+            "sharpe": -2.395,
+            "drawdown_pct": 3.2,
+            "win_rate_pct": 48.0,
+            "entries": 33
+          }
+        },
+        "2": {
+          "family_name": "Bollinger Band Mean Reversion",
+          "metrics": {
+            "return_pct": -3.56,
+            "sharpe": -2.396,
+            "drawdown_pct": 5.6,
+            "win_rate_pct": 40.0,
+            "entries": 139
+          }
+        },
+        "3": {
+          "family_name": "Connors RSI (2-Period)",
+          "metrics": {
+            "return_pct": 6.56,
+            "sharpe": -0.671,
+            "drawdown_pct": 4.5,
+            "win_rate_pct": 32.0,
+            "entries": 117
+          }
+        },
+        "4": {
+          "family_name": "EMA Trend + ADX",
+          "metrics": {
+            "return_pct": 0.34,
+            "sharpe": -1.667,
+            "drawdown_pct": 5.9,
+            "win_rate_pct": 32.0,
+            "entries": 53
+          }
+        },
+        "5": {
+          "family_name": "Williams %R + RSI",
+          "metrics": {
+            "return_pct": -11.41,
+            "sharpe": -2.897,
+            "drawdown_pct": 14.6,
+            "win_rate_pct": 22.0,
+            "entries": 120
+          }
+        }
+      }
+    },
+    "swing": {
+      "family": 1,
+      "family_name": "RSI Mean Reversion",
+      "params": {
+        "atr_period": 14,
+        "stop_atr_mult": 2.5,
+        "reward_ratio": 3,
+        "max_hold_bars": 96,
+        "cooldown_bars": 2,
+        "risk_per_trade_pct": 0.35,
+        "rsi_period": 10,
+        "rsi_oversold": 35,
+        "rsi_overbought": 70,
+        "trend_ema_period": 150
+      },
+      "metrics": {
+        "return_pct": 4.18,
+        "sharpe": -2.293,
+        "drawdown_pct": 1.6,
+        "win_rate_pct": 40.0,
+        "entries": 31
+      },
+      "all_families": {
+        "1": {
+          "family_name": "RSI Mean Reversion",
+          "metrics": {
+            "return_pct": 4.18,
+            "sharpe": -2.293,
+            "drawdown_pct": 1.6,
+            "win_rate_pct": 40.0,
+            "entries": 31
+          }
+        },
+        "3": {
+          "family_name": "Connors RSI (2-Period)",
+          "metrics": {
+            "return_pct": 2.95,
+            "sharpe": -1.884,
+            "drawdown_pct": 2.2,
+            "win_rate_pct": 31.0,
+            "entries": 16
+          }
+        }
+      }
+    }
+  },
+  "SOL-USD": {
+    "day_trade": {
+      "family": 1,
+      "family_name": "RSI Mean Reversion",
+      "params": {
+        "atr_period": 10,
+        "stop_atr_mult": 2,
+        "reward_ratio": 2,
+        "max_hold_bars": 20,
+        "cooldown_bars": 6,
+        "risk_per_trade_pct": 0.15,
+        "rsi_period": 10,
+        "rsi_oversold": 30,
+        "rsi_overbought": 65,
+        "trend_ema_period": 100
+      },
+      "metrics": {
+        "return_pct": 0.0,
+        "sharpe": null,
+        "drawdown_pct": null,
+        "win_rate_pct": null,
+        "entries": null
+      }
+    }
+  },
+  "SPY": {
+    "day_trade": {
+      "family": 1,
+      "family_name": "RSI Mean Reversion",
+      "params": {
+        "atr_period": 14,
+        "stop_atr_mult": 1,
+        "reward_ratio": 3,
+        "max_hold_bars": 48,
+        "cooldown_bars": 4,
+        "risk_per_trade_pct": 0.5,
+        "rsi_period": 10,
+        "rsi_oversold": 25,
+        "rsi_overbought": 75,
+        "trend_ema_period": 200
+      },
+      "metrics": {
+        "return_pct": 1.8,
+        "sharpe": -3.189,
+        "drawdown_pct": 1.5,
+        "win_rate_pct": 38.0,
+        "entries": 8
+      },
+      "all_families": {
+        "1": {
+          "family_name": "RSI Mean Reversion",
+          "metrics": {
+            "return_pct": 1.8,
+            "sharpe": -3.189,
+            "drawdown_pct": 1.5,
+            "win_rate_pct": 38.0,
+            "entries": 8
+          }
+        },
+        "2": {
+          "family_name": "Bollinger Band Mean Reversion",
+          "metrics": {
+            "return_pct": -5.3,
+            "sharpe": -2.565,
+            "drawdown_pct": 10.2,
+            "win_rate_pct": 22.0,
+            "entries": 45
+          }
+        },
+        "3": {
+          "family_name": "Connors RSI (2-Period)",
+          "metrics": {
+            "return_pct": -3.59,
+            "sharpe": -2.269,
+            "drawdown_pct": 5.8,
+            "win_rate_pct": 32.0,
+            "entries": 97
+          }
+        },
+        "4": {
+          "family_name": "EMA Trend + ADX",
+          "metrics": {
+            "return_pct": -0.65,
+            "sharpe": -1.109,
+            "drawdown_pct": 7.8,
+            "win_rate_pct": 42.0,
+            "entries": 213
+          }
+        },
+        "5": {
+          "family_name": "Williams %R + RSI",
+          "metrics": {
+            "return_pct": -0.88,
+            "sharpe": -2.552,
+            "drawdown_pct": 4.8,
+            "win_rate_pct": 34.0,
+            "entries": 107
+          }
+        }
+      }
+    },
+    "swing": {
+      "family": 3,
+      "family_name": "Connors RSI (2-Period)",
+      "params": {
+        "atr_period": 14,
+        "stop_atr_mult": 2.5,
+        "reward_ratio": 1.5,
+        "max_hold_bars": 48,
+        "cooldown_bars": 10,
+        "risk_per_trade_pct": 0.5,
+        "crsi_period": 5,
+        "crsi_entry": 15,
+        "crsi_entry_short": 85,
+        "trend_ema_period": 150,
+        "exit_sma_period": 5
+      },
+      "metrics": {
+        "return_pct": 2.44,
+        "sharpe": -3.491,
+        "drawdown_pct": 2.7,
+        "win_rate_pct": 56.0,
+        "entries": 17
+      },
+      "all_families": {
+        "1": {
+          "family_name": "RSI Mean Reversion",
+          "metrics": {
+            "return_pct": 1.6,
+            "sharpe": -2.196,
+            "drawdown_pct": 2.8,
+            "win_rate_pct": 33.0,
+            "entries": 69
+          }
+        },
+        "3": {
+          "family_name": "Connors RSI (2-Period)",
+          "metrics": {
+            "return_pct": -6.27,
+            "sharpe": -1.814,
+            "drawdown_pct": 11.9,
+            "win_rate_pct": 37.0,
+            "entries": 120
+          }
+        }
+      }
+    }
+  },
+  "TSLA": {
+    "day_trade": {
+      "family": 1,
+      "family_name": "RSI Mean Reversion",
+      "params": {
+        "atr_period": 10,
+        "stop_atr_mult": 1.5,
+        "reward_ratio": 1,
+        "max_hold_bars": 48,
+        "cooldown_bars": 10,
+        "risk_per_trade_pct": 0.5,
+        "rsi_period": 14,
+        "rsi_oversold": 25,
+        "rsi_overbought": 70,
+        "trend_ema_period": 100
+      },
+      "metrics": {
+        "return_pct": 1.64,
+        "sharpe": -6.36,
+        "drawdown_pct": null,
+        "win_rate_pct": 75.0,
+        "entries": 8
+      },
+      "all_families": {
+        "1": {
+          "family_name": "RSI Mean Reversion",
+          "metrics": {
+            "return_pct": 1.64,
+            "sharpe": -6.36,
+            "drawdown_pct": 0.0,
+            "win_rate_pct": 75.0,
+            "entries": 8
+          }
+        },
+        "2": {
+          "family_name": "Bollinger Band Mean Reversion",
+          "metrics": {
+            "return_pct": -8.0,
+            "sharpe": -3.988,
+            "drawdown_pct": 0.0,
+            "win_rate_pct": 34.0,
+            "entries": 147
+          }
+        },
+        "3": {
+          "family_name": "Connors RSI (2-Period)",
+          "metrics": {
+            "return_pct": 1.24,
+            "sharpe": -3.775,
+            "drawdown_pct": 377.0,
+            "win_rate_pct": 58.0,
+            "entries": 26
+          }
+        },
+        "4": {
+          "family_name": "EMA Trend + ADX",
+          "metrics": {
+            "return_pct": 0.85,
+            "sharpe": -4.126,
+            "drawdown_pct": 111.0,
+            "win_rate_pct": 38.0,
+            "entries": 39
+          }
+        },
+        "5": {
+          "family_name": "Williams %R + RSI",
+          "metrics": {
+            "return_pct": -10.32,
+            "sharpe": 0.0,
+            "drawdown_pct": 20.0,
+            "win_rate_pct": 39.0,
+            "entries": 412
+          }
+        }
+      }
+    },
+    "swing": {
+      "family": 3,
+      "family_name": "Connors RSI (2-Period)",
+      "params": {
+        "atr_period": 14,
+        "stop_atr_mult": 2.5,
+        "reward_ratio": 3,
+        "max_hold_bars": 48,
+        "cooldown_bars": 8,
+        "risk_per_trade_pct": 0.5,
+        "crsi_period": 2,
+        "crsi_entry": 15,
+        "crsi_entry_short": 90,
+        "trend_ema_period": 100,
+        "exit_sma_period": 8
+      },
+      "metrics": {
+        "return_pct": 0.98,
+        "sharpe": -1.352,
+        "drawdown_pct": 6.4,
+        "win_rate_pct": 36.0,
+        "entries": 70
+      },
+      "all_families": {
+        "1": {
+          "family_name": "RSI Mean Reversion",
+          "metrics": {
+            "return_pct": 0.46,
+            "sharpe": -2.427,
+            "drawdown_pct": 3.7,
+            "win_rate_pct": 33.0,
+            "entries": 27
+          }
+        },
+        "3": {
+          "family_name": "Connors RSI (2-Period)",
+          "metrics": {
+            "return_pct": 0.98,
+            "sharpe": -1.352,
+            "drawdown_pct": 6.4,
+            "win_rate_pct": 36.0,
+            "entries": 70
+          }
+        }
+      }
+    }
+  },
+  "USDJPY=X": {
+    "day_trade": {
+      "family": 2,
+      "family_name": "Bollinger Band Bounce",
+      "params": {
+        "atr_period": 20,
+        "stop_atr_mult": 1.5,
+        "reward_ratio": 2,
+        "max_hold_bars": 30,
+        "cooldown_bars": 5,
+        "risk_per_trade_pct": 0.25,
+        "bb_period": 25,
+        "bb_std_dev": 2,
+        "bb_rsi_long": 25,
+        "bb_rsi_short": 75,
+        "rsi_period": 10,
+        "bar_minutes": 5,
+        "htf_minutes": 60,
+        "htf_ema_period": 30,
+        "vol_filter_enabled": 1,
+        "use_force_flat": 0
+      },
+      "metrics": {
+        "return_pct": 12.73,
+        "sharpe": 0.199,
+        "drawdown_pct": 51.6,
+        "win_rate_pct": 40.0,
+        "entries": 15
+      },
+      "all_families": {
+        "1": {
+          "family_name": "RSI Mean Reversion",
+          "metrics": {
+            "return_pct": -4.49,
+            "sharpe": -2.911,
+            "drawdown_pct": 5.4,
+            "win_rate_pct": 36.0,
+            "entries": 80
+          }
+        },
+        "2": {
+          "family_name": "Bollinger Band Bounce",
+          "metrics": {
+            "return_pct": 12.73,
+            "sharpe": 0.199,
+            "drawdown_pct": 51.6,
+            "win_rate_pct": 40.0,
+            "entries": 15
+          }
+        },
+        "3": {
+          "family_name": "EMA Crossover",
+          "metrics": {
+            "return_pct": -0.02,
+            "sharpe": -1.858,
+            "drawdown_pct": 4.0,
+            "win_rate_pct": 41.0,
+            "entries": 99
+          }
+        },
+        "4": {
+          "family_name": "Stochastic Mean Reversion",
+          "metrics": {
+            "return_pct": -3.23,
+            "sharpe": -0.823,
+            "drawdown_pct": 13.9,
+            "win_rate_pct": 44.0,
+            "entries": 43
+          }
+        },
+        "5": {
+          "family_name": "EMA Trend + ADX",
+          "metrics": {
+            "return_pct": -3.38,
+            "sharpe": -4.518,
+            "drawdown_pct": 5.2,
+            "win_rate_pct": 37.0,
+            "entries": 81
+          }
+        }
+      }
+    }
+  }
+}
